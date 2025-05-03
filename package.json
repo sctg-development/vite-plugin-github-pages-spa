@@ -1,0 +1,45 @@
+{
+    "name": "@sctg/vite-plugin-github-pages-spa",
+    "version": "0.1.0",
+    "description": "Vite plugin to enable SPA (Single Page Application) support for GitHub Pages",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs",
+    "types": "dist/index.d.ts",
+    "files": [
+      "dist"
+    ],
+    "scripts": {
+      "build": "tsup src/index.ts --format cjs,esm --dts",
+      "lint": "tsc --noEmit",
+      "prepublishOnly": "npm run build"
+    },
+    "keywords": [
+      "vite",
+      "vite-plugin",
+      "github-pages",
+      "spa",
+      "single-page-application",
+      "react",
+      "vue",
+      "svelte"
+    ],
+    "author": "Ronan LE MEILLAT",
+    "license": "MIT",
+    "homepage": "https://github.com/sctg-development/vite-plugin-github-pages-spa#readme",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sctg-development/vite-plugin-github-pages-spa.git"
+    },
+    "bugs": {
+      "url": "https://github.com/sctg-development/vite-plugin-github-pages-spa/issues"
+    },
+    "peerDependencies": {
+      "vite": ">=6.3.0"
+    },
+    "devDependencies": {
+      "@types/node": "^20.0.0",
+      "typescript": "^5.8.3",
+      "tsup": "^8.4.0",
+      "vite": "^6.3.4"
+    }
+  }
