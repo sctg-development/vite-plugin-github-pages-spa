@@ -22,7 +22,7 @@ Add the plugin to your `vite.config.ts` or `vite.config.js`:
 ```typescript
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react'; // or any other framework plugin
-import githubPagesSpa from '@sctg/vite-plugin-github-pages-spa';
+import { githubPagesSpa } from "@sctg/vite-plugin-github-pages-spa";
 
 export default defineConfig({
   // Set base if your repo isn't deployed at the root domain
