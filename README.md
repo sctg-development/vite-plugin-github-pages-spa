@@ -5,6 +5,10 @@ A Vite plugin that enables seamless Single Page Application (SPA) support when h
 1. Creating a `404.html` file that redirects all requests to your SPA
 2. Injecting a script in your `index.html` that handles the redirection
 
+## Star the project
+
+**If you appreciate my work, please consider giving it a star! 🤩**
+
 ## Installation
 
 ```bash
