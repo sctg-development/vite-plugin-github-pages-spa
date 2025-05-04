@@ -1,3 +1,16 @@
+/**
+ * @license
+ * Copyright (c) 2025 Ronan LE MEILLAT for SCTG Development
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @file Vite plugin to enable SPA (Single Page Application) support for GitHub Pages
+ * @author Ronan LE MEILLAT
+ * @see {@link https://github.com/sctg-development/vite-plugin-github-pages-spa GitHub Repository}
+ * @version 0.1.1
+ */
+
 import type { Plugin as VitePlugin, PluginOption, ResolvedConfig } from 'vite';
 import { resolve } from 'node:path';
 import { writeFileSync, mkdirSync, existsSync } from 'node:fs';
