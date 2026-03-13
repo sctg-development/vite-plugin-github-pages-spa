@@ -50,6 +50,7 @@ export default defineConfig({
 | `verbose` | `boolean` | `true` | Whether to show log messages during build |
 | `injectScript` | `boolean` | `true` | Whether to inject the redirection script into index.html |
 | `custom404Html` | `string` | `undefined` | Optional custom HTML content for the 404.html file |
+| `title` | `string` | `404 - Page Not Found` | Title for the 404.html file (ignored if custom404Html is set) |
 
 ## How It Works
 
