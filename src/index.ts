@@ -37,6 +37,12 @@ export interface GitHubPagesSpaOptions {
    * @default true
    */
   injectScript?: boolean;
+  
+  /**
+   * Title for the 404.html file (ignored if custom404Html is set)
+   * @default '404 - Page Not Found'
+   */
+  title?: string;
 }
 
 /**
@@ -53,7 +59,8 @@ export function githubPagesSpa(options: GitHubPagesSpaOptions = {}): any {
   const {
     verbose = true,
     injectScript = true,
-    custom404Html
+    custom404Html,
+    title = '404 - Page Not Found'
   } = options;
   
   let config: ResolvedConfig;
@@ -128,7 +135,7 @@ export function githubPagesSpa(options: GitHubPagesSpaOptions = {}): any {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404 - Page Not Found</title>
+    <title>${title}</title>
     <script type="text/javascript">
         // Single Page Apps for GitHub Pages
         // MIT License
