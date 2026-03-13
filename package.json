@@ -1,6 +1,6 @@
 {
     "name": "@sctg/vite-plugin-github-pages-spa",
-    "version": "0.1.1",
+    "version": "0.2.0",
     "description": "Vite plugin to enable SPA (Single Page Application) support for GitHub Pages",
     "main": "dist/index.js",
     "module": "dist/index.mjs",
