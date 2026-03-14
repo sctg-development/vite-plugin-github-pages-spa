@@ -8,7 +8,7 @@
  * @file Vite plugin to enable SPA (Single Page Application) support for GitHub Pages
  * @author Ronan LE MEILLAT
  * @see {@link https://github.com/sctg-development/vite-plugin-github-pages-spa GitHub Repository}
- * @version 0.1.1
+ * @version 0.2.0
  */
 
 import type { Plugin as VitePlugin, PluginOption, ResolvedConfig } from 'vite';
